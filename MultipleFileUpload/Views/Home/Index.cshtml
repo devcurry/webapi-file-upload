@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "UploadFile";
+}
+
+<h1>Upload Multiple Files to Web API</h1>
+
+<input type="file" id="selectFile" name="selectFile" multiple="multiple" />
+<input type="submit" name="fileUpload" id="fileUpload" value="Upload" />
+
+@section Scripts{
+    <script src="~/Scripts/knockout-2.2.0.debug.js"></script>
+    <script src="~/Scripts/multi-uploader.js"></script>
+}
